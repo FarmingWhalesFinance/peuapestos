@@ -1757,16 +1757,16 @@ export default function SwapBox(props) {
 
   const leverageMarks = {
     2: "2x",
-    5: "5x",
-    10: "10x",
-    15: "15x",
-    20: "20x",
+   
     25: "25x",
-    30: "30x",
-    35: "35x",
-    40: "40x",
-    45: "45x",
+    
     50: "50x",
+    75: "75x",
+    100: "100x",
+    125: "125x",
+    150: "150x",
+    175: "175x",
+    200: "200x",
   };
 
   if (!fromToken || !toToken) {
@@ -2049,7 +2049,7 @@ export default function SwapBox(props) {
               >
                 <Slider
                   min={1.1}
-                  max={MAX_ALLOWED_LEVERAGE / BASIS_POINTS_DIVISOR}
+                  max={200}
                   step={0.1}
                   marks={leverageMarks}
                   handle={leverageSliderHandle}

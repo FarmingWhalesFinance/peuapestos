@@ -176,12 +176,12 @@ td {
 }
 
 .text-white {
-  color: #47abea;
+  color: white;
 }
 
 .label,
 .label a {
-  color: #47abea;
+  color: white;
 }
 
 ul {
@@ -208,7 +208,7 @@ a.plain {
   line-height: 2rem;
   font-weight: normal;
   letter-spacing: 0px;
-  color: #ffffff !important;
+  color: whitefff !important;
   padding-left: 1.6rem;
   padding-right: 1.6rem;
   /* padding: 9px 16px!important; */
@@ -261,7 +261,7 @@ a.plain {
 
 .default-btn:disabled {
   background: #2d2e3f 0% 0% no-repeat padding-box;
-  color: #ffffff61;
+  color: whitefff61;
 }
 
 .default-container {
@@ -330,7 +330,7 @@ a.plain {
 
 .secondary-btn:disabled {
   background: #2d2e3f 0% 0% no-repeat padding-box;
-  color: #ffffff61;
+  color: whitefff61;
 }
 
 @keyframes ripple {

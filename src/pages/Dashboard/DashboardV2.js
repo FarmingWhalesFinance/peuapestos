@@ -517,8 +517,7 @@ export default function DashboardV2() {
           <div className="section-title-icon"></div>
           <div className="section-title-content">
             <div className="Page-title">
-              <Trans>Stats</Trans> {chainId === AVALANCHE && <img src={avalanche24Icon} alt="avalanche24Icon" />}
-              {chainId === ARBITRUM && <img src={arbitrum24Icon} alt="arbitrum24Icon" />}
+              <Trans>Stats</Trans>
             </div>
             
           </div>
@@ -547,7 +546,7 @@ export default function DashboardV2() {
                 </div>
                 <div className="App-card-row">
                   <div className="label">
-                    <Trans>GLP Pool</Trans>
+                    <Trans>TLP Pool</Trans>
                   </div>
                   <div>
                     <TooltipComponent
@@ -699,11 +698,10 @@ export default function DashboardV2() {
           </div>
           <div className="Tab-title-section">
             <div className="Page-title">
-              <Trans>Tokens</Trans> {chainId === AVALANCHE && <img src={avalanche24Icon} alt="avalanche24Icon" />}
-              {chainId === ARBITRUM && <img src={arbitrum24Icon} alt="arbitrum24Icon" />}
+              <Trans>Tokens</Trans> 
             </div>
             <div className="Page-description">
-              <Trans>Platform and GLP index tokens.</Trans>
+              <Trans>Platform and TLP index tokens.</Trans>
             </div>
           </div>
           <div className="DashboardV2-token-cards">
@@ -716,12 +714,10 @@ export default function DashboardV2() {
                         <img src={gmx40Icon} alt="GMX Token Icon" />
                       </div>
                       <div className="App-card-title-mark-info">
-                        <div className="App-card-title-mark-title">GMX</div>
-                        <div className="App-card-title-mark-subtitle">GMX</div>
+                        <div className="App-card-title-mark-title">TFI</div>
+                        <div className="App-card-title-mark-subtitle">TFI</div>
                       </div>
-                      <div>
-                        <AssetDropdown assetSymbol="GMX" />
-                      </div>
+                      
                     </div>
                   </div>
                   <div className="App-card-divider"></div>
@@ -759,7 +755,7 @@ export default function DashboardV2() {
                       <div className="label">
                         <Trans>Supply</Trans>
                       </div>
-                      <div>{0} GMX</div>
+                      <div>{0} TLP</div>
                     </div>
                     <div className="App-card-row">
                       <div className="label">
@@ -809,12 +805,10 @@ export default function DashboardV2() {
                         )}
                       </div>
                       <div className="App-card-title-mark-info">
-                        <div className="App-card-title-mark-title">GLP</div>
-                        <div className="App-card-title-mark-subtitle">GLP</div>
+                        <div className="App-card-title-mark-title">TLP</div>
+                        <div className="App-card-title-mark-subtitle">TLP</div>
                       </div>
-                      <div>
-                        <AssetDropdown assetSymbol="GLP" />
-                      </div>
+                      
                     </div>
                   </div>
                   <div className="App-card-divider"></div>
@@ -823,31 +817,31 @@ export default function DashboardV2() {
                       <div className="label">
                         <Trans>Price</Trans>
                       </div>
-                      <div>${formatAmount(glpPrice, USD_DECIMALS, 3, true)}</div>
+                      <div>0</div>
                     </div>
                     <div className="App-card-row">
                       <div className="label">
                         <Trans>Supply</Trans>
                       </div>
-                      <div>{formatAmount(glpSupply, GLP_DECIMALS, 0, true)} GLP</div>
+                      <div>TLP</div>
                     </div>
                     <div className="App-card-row">
                       <div className="label">
                         <Trans>Total Staked</Trans>
                       </div>
-                      <div>${formatAmount(glpMarketCap, USD_DECIMALS, 0, true)}</div>
+                      <div>0</div>
                     </div>
                     <div className="App-card-row">
                       <div className="label">
                         <Trans>Market Cap</Trans>
                       </div>
-                      <div>${formatAmount(glpMarketCap, USD_DECIMALS, 0, true)}</div>
+                      <div>0</div>
                     </div>
                     <div className="App-card-row">
                       <div className="label">
                         <Trans>Stablecoin Percentage</Trans>
                       </div>
-                      <div>{stablePercentage}%</div>
+                      <div>0</div>
                     </div>
                   </div>
                 </div>
@@ -858,9 +852,7 @@ export default function DashboardV2() {
             </div>
             <div className="token-table-wrapper App-card">
               <div className="App-card-title">
-                <Trans>GLP Index Composition</Trans>{" "}
-                {chainId === AVALANCHE && <img src={avalanche16Icon} alt={t`Avalanche Icon`} />}
-                {chainId === ARBITRUM && <img src={arbitrum16Icon} alt={t`Arbitrum Icon`} />}
+                <Trans>TLP Index Composition</Trans>
               </div>
               <div className="App-card-divider"></div>
               <table className="token-table">
@@ -917,7 +909,7 @@ export default function DashboardV2() {
                         <td>${formatKeyAmount(tokenInfo, "minPrice", USD_DECIMALS, 2, true)}</td>
                         <td>
                           <TooltipComponent
-                            handle={`$${formatKeyAmount(tokenInfo, "managedUsd", USD_DECIMALS, 0, true)}`}
+                            handle={0}
                             position="right-bottom"
                             renderContent={() => {
                               return (
@@ -928,8 +920,8 @@ export default function DashboardV2() {
                             }}
                           />
                         </td>
-                        <td>{getWeightText(tokenInfo)}</td>
-                        <td>{formatAmount(utilization, 2, 2, false)}%</td>
+                        <td>0</td>
+                        <td>0</td>
                       </tr>
                     );
                   })}
@@ -966,7 +958,7 @@ export default function DashboardV2() {
                         <div className="label">
                           <Trans>Price</Trans>
                         </div>
-                        <div>${formatKeyAmount(tokenInfo, "minPrice", USD_DECIMALS, 2, true)}</div>
+                        <div>0</div>
                       </div>
                       <div className="App-card-row">
                         <div className="label">
@@ -978,13 +970,13 @@ export default function DashboardV2() {
                         <div className="label">
                           <Trans>Weight</Trans>
                         </div>
-                        <div>{getWeightText(tokenInfo)}</div>
+                        <div>0</div>
                       </div>
                       <div className="App-card-row">
                         <div className="label">
                           <Trans>Utilization</Trans>
                         </div>
-                        <div>{formatAmount(utilization, 2, 2, false)}%</div>
+                        <div>0</div>
                       </div>
                     </div>
                   </div>

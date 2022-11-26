@@ -16,7 +16,7 @@
   padding-left: 3.2rem;
   padding-right: 3.2rem;
   background: transparent 0% 0% no-repeat padding-box;
-  border-bottom: 1px solid #ffffff10;
+  border-bottom: 1px solid whitefff10;
 }
 
 .App-header.large::after {
@@ -67,7 +67,7 @@
   line-height: 1.8rem;
   font-weight: normal;
   letter-spacing: 0.1px;
-  color: #a0a3c4;
+  color: white;
   padding: 1.5rem 1.6rem;
   text-decoration: none;
   display: block;
@@ -166,7 +166,7 @@
 .App-header-container-left a {
   padding: 1.8rem 1.7rem;
   display: block;
-  color: #a0a3c4;
+  color: white;
   font-size: var(--font-base);
   line-height: 1.8rem;
   font-weight: normal;
@@ -214,7 +214,7 @@
 }
 
 .App-header-user-address {
-  border: 1px solid #ffffff29;
+  border: 1px solid whitefff29;
   height: 3.6rem;
   border-radius: 0.4rem;
   display: inline-flex;
@@ -274,7 +274,7 @@
     padding-left: 1.6rem;
     padding-right: 1.6rem;
     background: transparent 0% 0% no-repeat padding-box;
-    border-bottom: 1px solid #ffffff10;
+    border-bottom: 1px solid whitefff10;
   }
 
   .App-header.small::after {

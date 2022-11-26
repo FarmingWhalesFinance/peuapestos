@@ -7,6 +7,7 @@
   grid-template-columns: 1fr 1fr;
   grid-gap: 1.5rem;
   margin-top: 0.8rem;
+  
 }
 
 .DashboardV2-token-cards {
@@ -34,7 +35,13 @@
 .App-card-title-icon {
   display: flex;
   margin-left: 1.2rem;
+  background-color: #5d39a9;
 }
+
+.App-card {
+  background-color: #5d39a9;
+}
+  
 
 .App-card-title-icon img + img {
   margin-left: 0.6rem;

@@ -1,14 +1,14 @@
 .Footer-wrapper {
   text-align: center;
   padding-top: 4rem;
-  background: #37036d;
+  background-color: #1c0d3c;
   width: 100vw;
   position: absolute;
   transform: translateX(-50%);
   left: 50%;
   height: 20rem;
   bottom: 0;
-  border-top: 1px solid #37036d;
+  border-top: 1px solid #1c0d3c;
 }
 
 .Footer-logo {
@@ -29,7 +29,7 @@
   margin-bottom: 2.4rem;
 }
 .Footer-link {
-  color: #a0a3c4;
+  color: white;
   font-size: var(--font-base);
   line-height: 1.85rem;
   font-weight: normal;
@@ -62,7 +62,7 @@
   font-size: 1.3rem;
   line-height: 1.3rem;
   letter-spacing: -0.41px;
-  color: #a0a3c4;
+  color: white;
   display: block;
 }
 .Footer-links {

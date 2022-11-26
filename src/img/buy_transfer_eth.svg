@@ -9,12 +9,12 @@
     <g id="Layer_x0020_1" transform="translate(857.001 151.464)">
       <g id="_1421394342400" transform="translate(3.669 5.975)">
         <g id="Group_119" data-name="Group 119">
-          <path id="Path_1461" data-name="Path 1461" d="M383.682,0,383.5.618V18.555l.182.182,8.326-4.922Z" transform="translate(-375.356)" fill="#fff" opacity="0.85"/>
-          <path id="Path_1462" data-name="Path 1462" d="M8.326,0,0,13.815l8.326,4.922V0Z" fill="#fff" opacity="0.85"/>
-          <path id="Path_1463" data-name="Path 1463" d="M387.343,729.809l-.1.125v6.389l.1.3,8.331-11.733Z" transform="translate(-379.016 -709.496)" fill="#fff" opacity="0.85"/>
-          <path id="Path_1464" data-name="Path 1464" d="M8.326,736.623v-6.814L0,724.89Z" transform="translate(0 -709.496)" fill="#fff" opacity="0.85"/>
-          <path id="Path_1465" data-name="Path 1465" d="M392.07,481.036l8.326-4.922-8.326-3.785Z" transform="translate(-383.744 -462.299)" fill="#fff" opacity="0.85"/>
-          <path id="Path_1466" data-name="Path 1466" d="M0,476.115l8.326,4.922V472.33Z" transform="translate(0 -462.299)" fill="#fff" opacity="0.85"/>
+          <path id="Path_1461" data-name="Path 1461" d="M383.682,0,383.5.618V18.555l.182.182,8.326-4.922Z" transform="translate(-375.356)" fill="white" opacity="0.85"/>
+          <path id="Path_1462" data-name="Path 1462" d="M8.326,0,0,13.815l8.326,4.922V0Z" fill="white" opacity="0.85"/>
+          <path id="Path_1463" data-name="Path 1463" d="M387.343,729.809l-.1.125v6.389l.1.3,8.331-11.733Z" transform="translate(-379.016 -709.496)" fill="white" opacity="0.85"/>
+          <path id="Path_1464" data-name="Path 1464" d="M8.326,736.623v-6.814L0,724.89Z" transform="translate(0 -709.496)" fill="white" opacity="0.85"/>
+          <path id="Path_1465" data-name="Path 1465" d="M392.07,481.036l8.326-4.922-8.326-3.785Z" transform="translate(-383.744 -462.299)" fill="white" opacity="0.85"/>
+          <path id="Path_1466" data-name="Path 1466" d="M0,476.115l8.326,4.922V472.33Z" transform="translate(0 -462.299)" fill="white" opacity="0.85"/>
         </g>
       </g>
     </g>

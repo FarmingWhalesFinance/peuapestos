@@ -719,7 +719,7 @@ table.Exchange-list th {
   right: 1.25rem;
   top: 0;
   padding: 0.465rem 0.8rem;
-  color: #fff;
+  color: white;
   outline: 1rem solid #37036d;
   border-radius: 3px;
   z-index: 1;
@@ -803,7 +803,7 @@ input.Exchange-swap-input.small {
 
 table.Exchange-list-small {
   width: 100%;
-  background: #47abea;
+  background: white;
 }
 
 table.Exchange-list-small th,
