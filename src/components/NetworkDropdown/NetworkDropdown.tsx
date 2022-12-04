@@ -130,21 +130,7 @@ function DesktopDropdown({ setActiveModal, selectorLabel, networkOptions, onNetw
               </div>
             </div>
           </Menu.Item>
-          <Menu.Item>
-            <div
-              className="network-dropdown-menu-item menu-item last-dropdown-menu"
-              onClick={() => setActiveModal(LANGUAGE_MODAL_KEY)}
-            >
-              <div className="menu-item-group">
-                <div className="menu-item-icon">
-                  <img className="network-dropdown-icon" src={language24Icon} alt="" />
-                </div>
-                <span className="network-dropdown-item-label">
-                  <Trans>Language</Trans>
-                </span>
-              </div>
-            </div>
-          </Menu.Item>
+       
         </Menu.Items>
       </Menu>
     </div>
@@ -164,9 +150,7 @@ function NetworkMenuItems({ networkOptions, selectorLabel, onNetworkSelect }) {
           onClick={() => handleNetworkSelect({ value: network.value })}
         >
           <div className="menu-item-group">
-            <div className="menu-item-icon">
-              <img className="network-dropdown-icon" src={networkIcon} alt={network.label} />
-            </div>
+           
             <span className="network-dropdown-item-label">{network.label}</span>
           </div>
           <div className="network-dropdown-menu-item-img">
