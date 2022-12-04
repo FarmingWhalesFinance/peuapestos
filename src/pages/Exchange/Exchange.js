@@ -958,7 +958,7 @@ export const Exchange = forwardRef((props, ref) => {
             chainId={chainId}
             infoTokens={infoTokens}
             active={active}
-            connectWallet={connectWallet}
+            //connectWallet={connectWallet}
             library={library}
             account={account}
             positionsMap={positionsMap}

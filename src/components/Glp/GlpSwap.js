@@ -38,8 +38,8 @@ import Vester from "abis/Vester.json";
 import RewardRouter from "abis/RewardRouter.json";
 import Token from "abis/Token.json";
 
-import glp24Icon from "img/ic_glp_24.svg";
-import glp40Icon from "img/ic_glp_40.svg";
+import glp24Icon from "img/token2.svg";
+import glp40Icon from "img/token2.svg";
 import arrowIcon from "img/ic_convert_down.svg";
 
 import avalanche16Icon from "img/ic_avalanche_16.svg";

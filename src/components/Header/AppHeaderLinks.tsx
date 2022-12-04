@@ -48,7 +48,7 @@ export function AppHeaderLinks({
           <Trans>Dashboard</Trans>
         </HeaderLink>
       </div>
-      <div className="App-header-link-container">
+      {/* <div className="App-header-link-container">
         <HeaderLink to="/earn" redirectPopupTimestamp={redirectPopupTimestamp} showRedirectModal={showRedirectModal}>
           <Trans>Earn</Trans>
         </HeaderLink>
@@ -75,9 +75,9 @@ export function AppHeaderLinks({
         >
           <Trans>Ecosystem</Trans>
         </HeaderLink>
-      </div>
+      </div> */}
       <div className="App-header-link-container">
-        <ExternalLink href="https://gmxio.gitbook.io/gmx/">
+        <ExternalLink href="https://tradefi.gitbook.io/tradefi-the-future-of-trading/getting-started/what-is-tradefi">
           <Trans>About</Trans>
         </ExternalLink>
       </div>

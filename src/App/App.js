@@ -479,9 +479,9 @@ function FullApp() {
               <Route exact path="/dashboard">
                 <Dashboard />
               </Route>
-              <Route exact path="/earn">
+              {/* <Route exact path="/earn">
                 <Stake setPendingTxns={setPendingTxns} connectWallet={connectWallet} />
-              </Route>
+              </Route> */}
               <Route exact path="/buy">
                 <Buy
                   savedSlippageAmount={savedSlippageAmount}

@@ -27,15 +27,16 @@ export const FOOTER_LINKS: { home: Link[]; app: Link[] } = {
     // { text: "Jobs", link: "/jobs", isAppLink: true },
   ],
   app: [
-    { text: t`Media Kit`, link: "https://gmxio.gitbook.io/gmx/media-kit", external: true },
+    { text: t`Website`, link: "https://www.tradefiswap.com/", external: true },
     // { text: "Jobs", link: "/jobs" },
   ],
 };
 
 export const SOCIAL_LINKS: SocialLink[] = [
-  { link: "https://twitter.com/GMX_IO", name: "Twitter", icon: twitterIcon },
-  { link: "https://medium.com/@gmx.io", name: "Medium", icon: mediumIcon },
-  { link: "https://github.com/gmx-io", name: "Github", icon: githubIcon },
-  { link: "https://t.me/GMX_IO", name: "Telegram", icon: telegramIcon },
-  { link: "https://discord.gg/cxjZYR4gQK", name: "Discord", icon: discordIcon },
+  { link: "https://twitter.com/tradefi_swap", name: "Twitter", icon: twitterIcon },
+  // { link: "https://medium.com/@gmx.io", name: "Medium", icon: mediumIcon },
+  { link: "https://tradefi.gitbook.io/tradefi-the-future-of-trading/getting-started/what-is-tradefi", name: "Gitbook", icon: githubIcon },
+  { link: "https://t.me/tradefichannel", name: "Telegram", icon: telegramIcon },
+  // { link: "https://t.me/tradefichannel", name: "Telegram", icon: discordIcon },
+  
 ];

@@ -2403,7 +2403,7 @@ export default function SwapBox(props) {
           )}
         </div>
       )}
-      <div className="Exchange-swap-market-box App-box App-box-border">
+      {/* <div className="Exchange-swap-market-box App-box App-box-border">
         <div className="Exchange-swap-market-box-title">
           <Trans>Useful Links</Trans>
         </div>
@@ -2429,7 +2429,7 @@ export default function SwapBox(props) {
             </ExternalLink>
           </div>
         </div>
-      </div>
+      </div> */}
       <NoLiquidityErrorModal
         chainId={chainId}
         fromToken={fromToken}
