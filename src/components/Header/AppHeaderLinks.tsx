@@ -81,6 +81,11 @@ export function AppHeaderLinks({
           <Trans>About</Trans>
         </ExternalLink>
       </div>
+      <div className="App-header-link-container">
+        <ExternalLink href="https://options.tradefiswap.com">
+          <Trans>Options Trading</Trans>
+        </ExternalLink>
+      </div>
       {small && !isHomeSite() && (
         <div className="App-header-link-container">
           {/* eslint-disable-next-line */}

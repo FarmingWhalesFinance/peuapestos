@@ -850,8 +850,8 @@ export default function GlpSwap(props) {
                 tokens={whitelistedTokens}
                 infoTokens={infoTokens}
                 className="GlpSwap-from-token"
-                showSymbolImage={true}
-                showTokenImgInDropdown={true}
+                showSymbolImage={false}
+                showTokenImgInDropdown={false}
               />
             </BuyInputSection>
           )}
@@ -1295,7 +1295,6 @@ export default function GlpSwap(props) {
             return (
               <div className="App-card" key={token.symbol}>
                 <div className="mobile-token-card">
-                  <img src={tokenImage} alt={token.symbol} width="20px" />
                   <div className="token-symbol-text">{token.symbol}</div>
                   <div>
                     <AssetDropdown assetSymbol={token.symbol} assetInfo={token} />

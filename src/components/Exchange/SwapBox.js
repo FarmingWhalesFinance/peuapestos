@@ -1757,9 +1757,9 @@ export default function SwapBox(props) {
 
   const leverageMarks = {
     2: "2x",
-   
+
     25: "25x",
-    
+
     50: "50x",
     75: "75x",
     100: "100x",
@@ -1882,7 +1882,7 @@ export default function SwapBox(props) {
                     tokens={fromTokens}
                     infoTokens={infoTokens}
                     showMintingCap={false}
-                    showTokenImgInDropdown={true}
+                    showTokenImgInDropdown={false}
                   />
                 </div>
               </div>
@@ -1932,7 +1932,7 @@ export default function SwapBox(props) {
                     onSelectToken={onSelectToToken}
                     tokens={toTokens}
                     infoTokens={infoTokens}
-                    showTokenImgInDropdown={true}
+                    showTokenImgInDropdown={false}
                   />
                 </div>
               </div>
@@ -2071,7 +2071,7 @@ export default function SwapBox(props) {
                     tokenAddress={shortCollateralAddress}
                     onSelectToken={onSelectShortCollateralAddress}
                     tokens={stableTokens}
-                    showTokenImgInDropdown={true}
+                    showTokenImgInDropdown={false}
                   />
                 </div>
               </div>

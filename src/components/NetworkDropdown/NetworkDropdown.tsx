@@ -198,7 +198,7 @@ function NetworkModalContent({ networkOptions, onNetworkSelect, selectorLabel, s
               key={network.value}
             >
               <div className="menu-item-group">
-                <img src={networkIcon} alt={network.label} />
+              
                 <span>{network.label}</span>
               </div>
               <div className={cx("active-dot", { [selectorLabel]: selectorLabel === network.label })} />
@@ -208,17 +208,9 @@ function NetworkModalContent({ networkOptions, onNetworkSelect, selectorLabel, s
         <span className="network-dropdown-label more-options">
           <Trans>More Options</Trans>
         </span>
-        <div
-          className="network-option"
-          onClick={() => {
-            setActiveModal(LANGUAGE_MODAL_KEY);
-          }}
-        >
-          <div className="menu-item-group">
-            <img className="network-option-img" src={language24Icon} alt="Select Language" />
-            <span className="network-option-img-label">Language</span>
-          </div>
-        </div>
+    
+        
+      
         <div
           className="network-option"
           onClick={() => {

@@ -519,7 +519,6 @@ export default function DashboardV2() {
             <div className="Page-title">
               <Trans>Stats</Trans>
             </div>
-            
           </div>
         </div>
         <div className="DashboardV2-content">
@@ -698,7 +697,7 @@ export default function DashboardV2() {
           </div>
           <div className="Tab-title-section">
             <div className="Page-title">
-              <Trans>Tokens</Trans> 
+              <Trans>Tokens</Trans>
             </div>
             <div className="Page-description">
               <Trans>Platform and TLP index tokens.</Trans>
@@ -717,7 +716,6 @@ export default function DashboardV2() {
                         <div className="App-card-title-mark-title">TFI</div>
                         <div className="App-card-title-mark-subtitle">TFI</div>
                       </div>
-                      
                     </div>
                   </div>
                   <div className="App-card-divider"></div>
@@ -735,16 +733,8 @@ export default function DashboardV2() {
                             handle={0}
                             renderContent={() => (
                               <>
-                                <StatsTooltipRow
-                                  label={t`Price on Arbitrum`}
-                                  value={0}
-                                  showDollar={true}
-                                />
-                                <StatsTooltipRow
-                                  label={t`Price on Avalanche`}
-                                  value={0}
-                                  showDollar={true}
-                                />
+                                <StatsTooltipRow label={t`Price on Arbitrum`} value={0} showDollar={true} />
+                                <StatsTooltipRow label={t`Price on Avalanche`} value={0} showDollar={true} />
                               </>
                             )}
                           />
@@ -787,10 +777,7 @@ export default function DashboardV2() {
                     </div>
                   </div>
                 </div>
-                <div className="stats-piechart" onMouseLeave={onGMXDistributionChartLeave}>
-                  
-                  
-                </div>
+                <div className="stats-piechart" onMouseLeave={onGMXDistributionChartLeave}></div>
               </div>
               <div className="App-card">
                 <div className="stats-block">
@@ -808,7 +795,6 @@ export default function DashboardV2() {
                         <div className="App-card-title-mark-title">TLP</div>
                         <div className="App-card-title-mark-subtitle">TLP</div>
                       </div>
-                      
                     </div>
                   </div>
                   <div className="App-card-divider"></div>
@@ -845,9 +831,7 @@ export default function DashboardV2() {
                     </div>
                   </div>
                 </div>
-                <div className="stats-piechart" onMouseOut={onGLPPoolChartLeave}>
-                  
-                </div>
+                <div className="stats-piechart" onMouseOut={onGLPPoolChartLeave}></div>
               </div>
             </div>
             <div className="token-table-wrapper App-card">
@@ -912,11 +896,7 @@ export default function DashboardV2() {
                             handle={0}
                             position="right-bottom"
                             renderContent={() => {
-                              return (
-                                <>
-                                  
-                                </>
-                              );
+                              return <></>;
                             }}
                           />
                         </td>
@@ -945,7 +925,6 @@ export default function DashboardV2() {
                   <div className="App-card" key={token.symbol}>
                     <div className="App-card-title">
                       <div className="mobile-token-card">
-                        <img src={tokenImage} alt={token.symbol} width="20px" />
                         <div className="token-symbol-text">{token.symbol}</div>
                         <div>
                           <AssetDropdown assetSymbol={token.symbol} assetInfo={token} />
@@ -964,7 +943,6 @@ export default function DashboardV2() {
                         <div className="label">
                           <Trans>Pool</Trans>
                         </div>
-                        
                       </div>
                       <div className="App-card-row">
                         <div className="label">
